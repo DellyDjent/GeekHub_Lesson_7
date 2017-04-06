@@ -1,0 +1,1410 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px Proxima Nova Light, Arial, Tahoma, sans-serif; background:#fff; color:#000; }
+div,menu,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,legend,label,select,input,textarea,button {
+    padding:0;
+    margin:0;
+    outline:none;
+    list-style:none;
+}
+button                         { cursor: pointer; padding: 0 }
+select, input, textarea,button { font:12px Tahoma, sans-serif; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+img                            { vertical-align: top; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a                              { text-decoration: none; }
+
+/*-----------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(../fonts/Raleway-Regular/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(../fonts/Raleway-Bold/Raleway-Bold.ttf);
+}
+
+body {
+    font-family: OpenSans-Regular, Tahoma, Arial, sans-serif;
+    color: #ffffff;
+}
+
+.head-wrap {
+    background-image: url("../images/bg_header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 115% 100%;
+    text-transform: uppercase;
+    color: #f9fafe;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 45px 0 320px 0;
+}
+
+.head-header {
+    width: 1497px;
+    margin: 0 auto;
+}
+
+h1 {
+    float: left;
+}
+
+nav {
+    font-family: Raleway-Bold, Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    float: right;
+    margin: -10px 0 200px 0;
+}
+
+.list-nav {
+    overflow: hidden;
+}
+
+.list-nav li {
+    float: left;
+}
+
+.list-nav li a {
+    color: inherit;
+    border: 1px solid transparent;
+    padding: 15px 40px;
+    display: inline-block;
+}
+
+.list-nav li a:hover {
+    border: 1px solid #f9fafe;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+h2 {
+    font-family: Raleway-Bold, Tahoma, Arial, sans-serif;
+    font-size: 72px;
+    text-align: center;
+    clear: both;
+    letter-spacing: 4px;
+}
+
+.head-header p {
+    font-size: 30px;
+    text-align: center;
+}
+
+form {
+    width: 780px;
+    margin: 90px auto 0;
+}
+
+.header-field-email {
+    font-family: Raleway-Regular, Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-indent: 20px;
+    color: #717171;
+    border-radius: 3px 0 0 3px;
+    border: none;
+    width: 570px;
+    height: 60px;
+}
+
+.btn-find-boat {
+    background-image: url("../images/bg_boat.png");
+    background-repeat: no-repeat;
+    background-position: 40px 20px;
+    background-color: #e7434e;
+    font-family: Raleway-Bold, Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    text-indent: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 60px;
+    margin-left: -5px;
+    border-radius: 0 3px 3px 0;
+}
+
+/*=====================================HEADER END================================*/
+/*=====================================HEADER END================================*/
+/*=====================================HEADER END================================*/
+
+.explorer-destination-wrap {
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.explorer-destination-head {
+    background-color: #fff;
+    border-radius: 3px 3px 0 0;
+    width: 1200px;
+    position: relative;
+    margin: -70px auto 0;
+    padding-top: 40px;
+}
+
+.main-list-top {
+    margin-bottom: 140px;
+    overflow: hidden;
+    box-shadow: 0 6px 10px 0 rgba(38,38,38, 0.3);
+    padding-bottom: 35px;
+}
+
+.main-list-top li {
+    background-image: url("../images/border.png");
+    background-repeat: repeat-y;
+    background-position: right;
+    width: 300px;
+    height: 80px;
+    display: block;
+    float: left;
+}
+
+.main-list-top li p {
+    font-size: 18px;
+    color: #717171;
+}
+
+.main-list-top li .main-total {
+    font-family: OpenSans-Bold, Tahoma, Arial, sans-serif;
+    font-size: 30px;
+    color: #343434;
+    margin-bottom: 15px;
+}
+
+.main-list-top li:last-child {
+    background-image: none;
+}
+
+h3 {
+    font-family: Raleway-Regular, Tahoma, Arial, sans-serif;
+    font-size: 30px;
+    color: #343435;
+    margin-bottom: 25px;
+}
+
+.explorer-destination-head > p {
+    font-size: 16px;
+    color: #717171;
+}
+
+.list-destination {
+    width: 1200px;
+    overflow: hidden;
+    margin: 85px auto;
+}
+
+.list-destination li {
+    width: 370px;
+    height: 360px;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    float: left;
+    margin: 15px 15px;
+}
+
+.list-destination a {
+    color: #fff;
+    display: block;
+}
+
+.list-destination li img {
+    width: 100%;
+    height: auto;
+}
+
+.list-destination .first-destination {
+    width: 770px;
+    height: auto;
+}
+
+.total-boats {
+    background-image: url("../images/bg_boat.png");
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+    background-color: #e7434e;
+    font-family: OpenSans-Bold, Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-indent: 25px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    height: 30px;
+    width: 85px;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    padding-top: 12px;
+}
+
+.location {
+    text-align: left;
+    display: block;
+    position: absolute;
+    top: 275px;
+    left: 25px;
+}
+
+.list-destination .main-destination {
+    font-family: Raleway-Regular, Tahoma, Arial, sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.country {
+    font-family: Raleway-Regular, Tahoma, Arial, sans-serif;
+    font-size: 20px;
+    display: block;
+    margin-top: 5px;
+}
+
+.link-more-destination {
+    font-family: Raleway-Bold, Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #343434;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 20px 50px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.link-more-destination:hover {
+    border: 1px solid rgba(38,38,38, 0.3);
+    transition: 0.5s;
+}
+
+/*==============================DESTINATION END=================================*/
+/*==============================DESTINATION END=================================*/
+/*==============================DESTINATION END=================================*/
+
+.your-boat-wrap {
+    background-color: #1F1639;
+    background-image: url("../images/bg_section_your_boat.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 180px 0 155px 0;
+}
+
+.your-boat-header {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #f9fafe;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.link-make-money {
+    font-family: Raleway-Bold, Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #e7434e;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 85px;
+    padding: 22px 47px;
+}
+
+/*==============================YOUR BOAT END=================================*/
+/*==============================YOUR BOAT END=================================*/
+/*==============================YOUR BOAT END=================================*/
+
+.featured-boat {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 100px 0 85px 0;
+}
+
+.header-featured-boat {
+    text-align: center;
+    font-size: 16px;
+    color: #717171;
+}
+
+.list-featured-boat {
+    overflow: hidden;
+    width: 1200px;
+    margin: 90px auto 100px;
+}
+
+.list-featured-boat li {
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 574px;
+    height: 340px;
+    border-radius: 7px;
+    margin: 15px 13px;
+    position: relative;
+}
+
+.list-featured-boat a {
+    color: #fff;
+    display: block;
+}
+
+.main-featured {
+    font-family: Raleway-Regular, Tahoma, Arial, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+}
+
+.main-featured figcaption {
+    text-align: left;
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+
+.red-boat {
+    background-image: url("../images/bg_euro.png");
+    background-repeat: no-repeat;
+    background-position: 10px 15px;
+    background-color: #e7434e;
+    font-family: OpenSans-Bold, Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    text-indent: 25px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 105px;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    padding-top: 10px;
+}
+
+.location-featured-boat {
+    background-image: url("../images/mark.png");
+    background-repeat: no-repeat;
+    background-position: 2px 7px;
+    font-family: Raleway-Regular, Tahoma, Arial, sans-serif;
+    font-size: 20px;
+    text-indent: 22px;
+    margin-top: 5px;
+    display: block;
+}
+
+.specification-boat {
+    background-image: url("../images/mark_people.png");
+    background-repeat: no-repeat;
+    background-position: 30px 5px;
+    font-family: Raleway-Regular, Tahoma, Arial, sans-serif;
+    font-size: 20px;
+    text-indent: 60px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.link-more-boats {
+    font-family: Raleway-Bold, Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #343434;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 20px 53px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.link-more-boats:hover {
+    border: 1px solid rgba(38,38,38, 0.3);
+    transition: 0.5s;
+}
+
+/*==============================FEATURE BOAT END=================================*/
+/*==============================FEATURE BOAT END=================================*/
+/*==============================FEATURE BOAT END=================================*/
+
+footer {
+    background-image: url("../images/bg_footer.png");
+    background-repeat: repeat-x;
+    background-color: #404040;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding: 60px 0 50px 0;
+}
+
+.footer-wrap {
+    overflow: hidden;
+    width: 1560px;
+    margin: 0 auto;
+}
+
+footer ul {
+    float: left;
+    margin: 0 35px;
+}
+
+footer ul:first-child {
+    margin-left: 195px;
+}
+
+h4 {
+    font-family: Raleway-Bold, Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+footer ul li a {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.list-form {
+    width: 420px;
+    height: auto;
+}
+
+.list-form form {
+    margin: 0;
+}
+
+.field-email-footer {
+    font-family: Raleway-Regular, Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    color: #717171;
+    width: 270px;
+    border-radius: 3px 0 0 3px;
+    border: none;
+    height: 40px;
+    text-indent: 20px;
+}
+
+.btn-subscribe {
+    background-color: #e7434e;
+    font-family: OpenSans-Regular, Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    width: 145px;
+    height: 40px;
+    margin-left: -5px;
+    border-radius: 0 3px 3px 0;
+}
+
+.social-icon-position {
+    margin-top: 35px;
+}
+
+.facebook-icon {
+    background-image: url("../images/facebook_icon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #717171;
+    padding: 45px 50px 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.twitter-icon {
+    background-image: url("../images/twitter_icon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #717171;
+    padding: 45px 50px 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.google-icon {
+    background-image: url("../images/google_icon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #717171;
+    padding: 45px 50px 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+/*==============================FOOTER END=================================*/
+/*==============================FOOTER END=================================*/
+/*==============================FOOTER END=================================*/
+
+
+
+
+/*===================== RESPONSIVE ((992PX-1199PX)) ==================*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .head-wrap {
+        padding: 45px 0 180px 0;
+        background-size: cover;
+    }
+
+    .head-header {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .head-header p, .your-boat-header > p {
+        font-size: 18px;
+    }
+
+    nav {
+        font-size: 14px;
+        margin: 0  0 130px 0;
+    }
+
+    .list-nav li a {
+        padding: 10px 10px;
+    }
+
+    form {
+        width: 660px;
+    }
+
+    .header-field-email {
+        width: 470px;
+        height: 50px;
+    }
+
+    .btn-find-boat {
+        background-position: 23px 15px;
+        width: 170px;
+        height: 50px;
+    }
+
+    /*===============HEAD END================*/
+
+    .explorer-destination-wrap {
+        width: 100%;
+    }
+
+    .explorer-destination-head {
+        width: 950px;
+    }
+
+    .main-list-top li {
+        width: 237px;
+    }
+
+    .list-destination {
+        width: 800px;
+    }
+
+    /*===========EXPLORER WRAP END============*/
+
+    .your-boat-header {
+        width: 950px;
+    }
+
+    .link-make-money, .link-more-destination {
+        padding: 15px 30px;
+    }
+
+    /*===============YOUR BOAT END==============*/
+
+    .header-featured-boat {
+        font-size: 20px;
+    }
+
+    .explorer-destination-head > p {
+        font-size: 20px;
+    }
+
+    .list-featured-boat {
+        width: 600px;
+    }
+
+    /*===============FEATURED END================*/
+
+
+    .footer-wrap {
+        width: 992px;
+    }
+
+    footer ul {
+        overflow: hidden;
+        float: left;
+        margin: 0 7px;
+    }
+
+    footer ul:first-child {
+        margin-left: 15px;
+    }
+}
+
+/*================== RESPONSIVE ((992PX-1199PX)) END ============*/
+
+/*=================== RESPONSIVE ((768PX-991PX))  ===============*/
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .head-wrap {
+        padding: 45px 0 180px 0;
+        background-size: cover;
+    }
+
+    .head-header {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .head-header p {
+        font-size: 18px;
+    }
+
+    nav {
+        font-size: 12px;
+        margin: 5px 0 130px 0;
+    }
+
+    .list-nav li a {
+        padding: 7px 7px;
+    }
+
+    form {
+        text-align: center;
+        width: 660px;
+    }
+
+    .header-field-email {
+        width: 370px;
+        height: 40px;
+    }
+
+    .btn-find-boat {
+        background-position: 15px 10px;
+        width: 140px;
+        height: 40px;
+    }
+
+    /*===============HEAD END================*/
+
+    .explorer-destination-wrap {
+        width: 100%;
+    }
+
+    .explorer-destination-head {
+        width: 748px;
+    }
+
+    .main-list-top {
+        margin-bottom: 70px;
+    }
+
+    .main-list-top li {
+        width: 187px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    .list-destination {
+        width: 750px;
+    }
+
+    .list-destination .first-destination {
+        margin: 0;
+        width: 750px;
+    }
+
+    .list-destination li img {
+        max-width: 100%;
+    }
+
+    .list-destination li {
+        width: 350px;
+        height: 340px;
+        margin: 20px 0 0 16px ;
+    }
+
+    .link-make-money, .link-more-destination {
+        padding: 12px 20px;
+    }
+
+    /*===============DESTINATION END================*/
+
+    .your-boat-header {
+        width: 700px;
+    }
+
+    .your-boat-header > p {
+        font-size: 18px;
+    }
+
+    /*===============YOUR BOAT END================*/
+
+    .featured-boat {
+        padding: 50px 0;
+    }
+
+    .header-featured-boat {
+        font-size: 20px;
+    }
+
+    .explorer-destination-head > p {
+        font-size: 20px;
+    }
+
+    .list-featured-boat {
+        margin: 40px auto;
+        width: 600px;
+    }
+
+    /*===============FEATURED END================*/
+
+    .footer-wrap {
+        width: 768px;
+    }
+
+    footer ul {
+        width: 165px;
+        margin: 0 9px;
+    }
+
+    footer ul:first-child {
+        margin-left: 15px;
+    }
+
+    .list-contact {
+        margin-left: 10px;
+    }
+
+    .list-form {
+        width: 190px;
+    }
+
+    .list-form form {
+        width: 190px;
+        margin: 0;
+    }
+
+    footer ul li a {
+        font-size: 14px;
+    }
+
+    .field-email-footer {
+        font-size: 12px;
+        width: 140px;
+        height: 30px;
+        text-indent: 10px;
+        margin: 0;
+    }
+
+    .btn-subscribe {
+        font-size: 9px;
+        width: 50px;
+        height: 30px;
+    }
+
+    .facebook-icon {
+        padding: 25px 30px 0 0;
+    }
+
+    .twitter-icon {
+        padding: 25px 30px 0 0;
+    }
+
+    .google-icon {
+        padding: 25px 30px 0 0;
+    }
+}
+
+/*===================== RESPONSIVE ((768PX-991PX))END ==================*/
+
+/*====================  RESPONSIVE ((500PX-767PX))   ===================*/
+
+@media (min-width: 500px) and (max-width: 767px){
+
+    .head-wrap {
+        padding: 45px 0 120px 0;
+        background-size: cover;
+    }
+
+    .head-header {
+        width: 100%;
+    }
+    
+    h1 {
+        height: 16px;
+        width: 100px;
+    }
+
+    h1 a img {
+        height: 100%;
+        width: 100%;
+    }
+
+    nav {
+        font-size: 12px;
+        margin: -2px 0 80px 0;
+    }
+
+    .list-nav li a {
+        padding: 4px 4px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .head-header p, .your-boat-header p {
+        font-size: 13px;
+    }
+
+    form {
+        text-align: center;
+        width: 400px;
+        margin-top: 30px;
+    }
+
+    .header-field-email {
+        font-size: 10px;
+        text-indent: 8px;
+        width: 200px;
+        height: 25px;
+    }
+
+    .btn-find-boat {
+        background-size: 15%;
+        font-size: 10px;
+        background-position: 6px 5px;
+        width: 90px;
+        height: 25px;
+    }
+
+    /*==============HEAD END==============*/
+
+    .explorer-destination-wrap {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .explorer-destination-head {
+        padding-top: 20px;
+        width: 500px;
+    }
+
+    .main-list-top {
+        margin-bottom: 40px;
+    }
+
+    .main-list-top li {
+        width: 125px;
+    }
+
+    .main-list-top li .main-total {
+        font-size: 20px;
+    }
+
+    .main-list-top li p {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .list-destination {
+        width: 500px;
+        margin: 35px auto;
+    }
+
+    .list-destination .first-destination {
+        width: 490px;
+        margin: 0;
+    }
+
+    .list-destination li {
+        width: 370px;
+        height: 360px;
+        margin: 15px 60px;
+    }
+
+    .link-more-destination, .link-make-money, .link-more-boats {
+        padding: 8px 15px;
+    }
+
+    /*==============EXPLORER END==============*/
+
+    .your-boat-wrap{
+        padding: 120px 0 110px 0;
+    }
+
+    .your-boat-header {
+        width: 500px;
+    }
+
+    .link-make-money {
+       margin-top: 60px;
+    }
+
+    /*==============YOUR BOAT END==============*/
+
+    .featured-boat {
+        padding: 50px 0;
+    }
+
+    .list-featured-boat {
+        width: 500px;
+        margin: 40px auto;
+    }
+
+    .list-featured-boat li {
+        width: 500px;
+        height: 300px;
+        margin: 10px 0;
+    }
+
+    .main-featured img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-featured figcaption {
+        text-align: left;
+        position: absolute;
+        top: 210px;
+        left: 30px;
+    }
+
+    /*==============FEATURED END==============*/
+
+    .footer-wrap {
+        width: 500px;
+    }
+
+    footer ul {
+        width: 95px;
+        margin: 0;
+    }
+
+    footer ul:first-child {
+        margin-left: 15px;
+    }
+
+    .list-contact {
+        margin-left: 10px;
+    }
+
+    .list-form {
+        width: 190px;
+    }
+
+    .list-form form {
+        width: 190px;
+        margin: 0;
+    }
+
+    h4 {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    footer ul li a  {
+        font-size: 10px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .field-email-footer {
+        font-size: 12px;
+        width: 130px;
+        height: 30px;
+        text-indent: 10px;
+        margin: 0;
+    }
+
+    .btn-subscribe {
+        font-size: 10px;
+        width: 60px;
+        height: 30px;
+    }
+
+    .facebook-icon {
+        padding: 25px 30px 0 0;
+    }
+
+    .twitter-icon {
+        padding: 25px 30px 0 0;
+    }
+
+    .google-icon {
+        padding: 25px 30px 0 0;
+    }
+}
+
+/*===================== RESPONSIVE ((500PX-767PX)) END ==================*/
+
+/*===================== RESPONSIVE ((0PX-499PX)) ========================*/
+
+@media (min-width: 0px) and (max-width: 499px) {
+
+    .head-wrap {
+        padding: 30px 0 120px 0;
+        background-size: cover;
+    }
+
+    .head-header {
+        width: 100%;
+    }
+
+    h1 {
+        height: 16px;
+        width: 100px;
+    }
+
+    h1 a img {
+        height: 100%;
+        width: 100%;
+    }
+
+    nav {
+        font-size: 7px;
+        margin: -2px 0 50px 0;
+    }
+
+    .list-nav li a {
+        padding: 4px 4px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .head-header p {
+        font-size: 9px;
+    }
+
+    form {
+        text-align: center;
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .header-field-email {
+        font-size: 7px;
+        text-indent: 8px;
+        width: 170px;
+        height: 25px;
+    }
+
+    .btn-find-boat {
+        background-size: 15%;
+        text-indent: 15px;
+        font-size: 7px;
+        background-position: 8px 7px;
+        width: 70px;
+        height: 25px;
+    }
+
+    /*===========HEAD END=============*/
+
+    .explorer-destination-wrap {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .explorer-destination-head {
+        width: 320px;
+        padding-top: 10px;
+    }
+
+    .explorer-destination-head > p {
+        font-size: 10px;
+    }
+
+    .main-list-top {
+        margin-bottom: 20px;
+    }
+
+    .main-list-top li {
+        width: 80px;
+        height: auto;
+    }
+
+    .main-list-top li p {
+        font-size: 12px
+    }
+
+    .main-list-top li .main-total {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    h3 {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .list-destination {
+        width: 320px;
+        margin: 15px auto 0;
+    }
+
+    .list-destination .first-destination {
+        width: 320px;
+        margin: 0;
+    }
+
+    .list-destination li {
+        width: 320px;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .total-boats {
+        background-size: 25%;
+        background-position: 7px 5px;
+        font-size: 11px;
+        text-indent: 14px;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        display: block;
+        height: 20px;
+        width: 50px;
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        padding-top: 4px;
+    }
+
+    .location {
+        top: 235px;
+        left: 25px;
+        font-size: 25px;
+    }
+
+    .country {
+        font-size: 16px;
+    }
+
+    .first-destination .location {
+        font-size: 18px;
+        top: 100px;
+    }
+
+    .first-destination .country {
+        font-size: 14px;
+    }
+
+    /*=================EXPLORER END========================*/
+
+    .your-boat-wrap {
+        padding: 60px 0;
+    }
+
+    .your-boat-header {
+        width: 320px;
+    }
+
+    .your-boat-header > p {
+        font-size: 10px;
+    }
+
+    .link-make-money, .link-more-destination {
+        font-size: 8px;
+        margin-top: 30px;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+
+    /*===========YOUR BOAT END==============*/
+
+    .list-featured-boat {
+        width: 320px;
+        margin: 20px auto;
+    }
+
+    .featured-boat {
+        padding: 25px 0;
+    }
+
+    .header-featured-boat {
+        font-size: 10px;
+    }
+
+    .list-featured-boat li {
+        width: 320px;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .main-featured {
+        font-size: 15px;
+    }
+
+    .location-featured-boat {
+        text-indent: 12px;
+        background-size: 5%;
+        background-position: 0 4px;
+        font-size: 10px;
+    }
+
+    .specification-boat {
+        text-indent: 50px;
+        background-size: 15%;
+        background-position: 30px 0;
+        font-size: 10px;
+    }
+
+    .main-featured img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-featured figcaption {
+        text-align: left;
+        position: absolute;
+        top: 140px;
+        left: 20px;
+    }
+
+    .link-more-boats {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .red-boat {
+        top: 20px;
+        left: 20px;
+        background-position: 3px 9px;
+        text-indent: 15px;
+        width: 65px;
+        padding-top: 6px;
+        height: 20px;
+        font-size: 10px;
+        background-size: 15% 35%;
+    }
+
+    /*==============FEATURED END====================*/
+
+    footer {
+        overflow: hidden;
+        padding-top: 30px;
+    }
+
+    .footer-wrap {
+        position: relative;
+        width: 320px;
+        padding-bottom: 35px;
+    }
+
+    footer ul {
+        height: 200px;
+        width: 100px;
+        float: left;
+    }
+
+    footer .footer-wrap ul {
+        margin: 0 0 0 3px;
+    }
+
+    .list-form {
+        text-align: center;
+        top: 140px;
+        position: absolute;
+        width: 80px;
+    }
+
+    .list-form form {
+        width: 300px;
+    }
+
+    .list-form li>h4{
+        width: 300px;
+    }
+
+    footer ul li a {
+        display: inline;
+        font-size: 10px;
+        margin: 0;
+    }
+
+    h4 {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .field-email-footer {
+    font-size: 12px;
+    width: 230px;
+    height: 25px;
+    text-indent: 10px;
+    margin: 0;
+    }
+
+    .btn-subscribe {
+    font-size: 11px;
+    width: 70px;
+    height: 25px;
+    }
+
+    .social-icon-position {
+        text-align: center;
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .facebook-icon {
+        display: inline-block;
+        background-size: 25%;
+        padding: 17px 20px ;
+    }
+
+    .twitter-icon {
+        padding: 17px 20px ;
+    }
+
+    .google-icon {
+        padding: 17px 20px ;
+    }
+}
+
+/*===================== RESPONSIVE ((0PX-499PX)) END ========================*/
